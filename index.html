@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<h1>Pre-Req GPA Calculator</h1>
+
+
+<script src="JavascriptFunctions.js"></script>
+
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input id="FirstName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input id="LastName" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <tbody>
+            <tr>
+                <td width="100">
+                    <strong>Course</strong>
+                </td>
+                <td width="100">
+                    <strong>Credits</strong>
+                </td>
+                <td>
+                    <strong>Grade</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    IS110
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    <select id="GradeIS110">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    IS201
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    <select id="GradeIS201">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    IS303
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    <select id="GradeIS303">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    FIN201
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    <select id="GradeFIN201">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ACC200
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    <select id="GradeACC200">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BUSM241
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    <select id="GradeBUSM241">
+                        <option></option>
+                        <option>A</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>B-</option>
+                        <option>C+</option>
+                        <option>C</option>
+                        <option>C-</option>
+                        <option>D+</option>
+                        <option>D</option>
+                        <option>D-</option>
+                        <option>E</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <button id="buttonCalculate" onclick="calculateGPA()">Calculate</button>
+
+    <button id="buttonReset" onclick="resetPage()">Reset</button>
+
+    <p ID="Answer"></p>
+
+</body>
